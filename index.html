@@ -1,0 +1,42 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="https://github.com/dikanurfaizi/sample-widget-custom.git" target="_blank">My Repository in GitHub</a>
+		</div>
+	</nav>
+	<div class="col-md-3"></div>
+	<div class="col-md-6 well">
+		<h3 class="text-primary">JavaScript - Dynamically Append Data In HTML Table</h3>
+		<hr style="border-top:1px dotted #ccc;"/>
+		<div class="col-md-4">
+			<form>
+				<div class="form-group">
+					<label>Input</label>
+					<input type="text" id="input" class="form-control" onkeypress="return onlyNum(event)" />
+				</div>
+				<left><button type="button" class="btn btn-primary" onclick="addData();">Add Data</button></left>
+			</form>
+		</div>
+		<div class="col-md-8">
+			<table class="table table-bordered">
+				<thead class="alert-info">
+					<tr>
+						<th>Input</th>
+						<th>Output</th>
+					</tr>
+				</thead>
+				<tbody id="result"></tbody>
+			</table>
+		</div>
+	</div>
+<script src="js/script.js"></script>
+</body>	
+</html>
+
+<!-- https://github.com/BosNaufal/terbilang-js/blob/master/terbilang.js -->
